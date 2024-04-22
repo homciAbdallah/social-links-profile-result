@@ -23,8 +23,6 @@ body {
   border-radius: 16px;
   padding: 16px;
   margin-bottom: 16px;
-
-
 }
 img {
   
@@ -73,7 +71,22 @@ header{
   display: grid;
   place-content: center;
 }
-div > p{
+.container > div:hover{
+  cursor: pointer;
+  background-color: var(--green-Primary);
+  
+}
+.container > div:hover a{
+  color: var(--darkGrey-Neutral);
+}
+
+div a{
+  text-decoration: none;
   font-size: 12px;
   font-weight: 700;
+  color: var(--white-Neutral);
 }
+
+
+
+
